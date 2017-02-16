@@ -30,3 +30,7 @@ body {
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.84, -0.44, 0.18, 0.99);
 }
+
+.hour-hand {
+  width: 30%;
+}
