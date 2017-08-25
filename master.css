@@ -27,6 +27,24 @@ body {
   top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all 0.05s;
+  transition: all 0.01s;
   transition-timing-function: cubic-bezier(0.84, -0.44, 0.18, 0.99);
+}
+
+.second-hand {
+  background-color: orange;
+  height: 2px;
+}
+
+.hour-hand {
+  height: 7px;
+  background-color: blue;
+}
+
+.hack {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  background-color: black;
+  left: 40%;
 }
